@@ -9,7 +9,7 @@ def app(environ,start_response):
             ore=s.find('&')
             if ore==-1:
                 ore=len(s)
-            otto.append(bytes(s[:ore]+'\n'))
+            otto.append(bytes(s[:ore]+'\n',encoding='utf8'))
             s=s[ore+1:]
     start_response('200 OK', [("Content-Type", "text/plain")])
     return otto
