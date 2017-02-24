@@ -1,0 +1,10 @@
+Cleaning up...                                                                  
+Command /usr/bin/python3 -c "import setuptools, tokenize;__file__='/tmp/pip_buil
+d_root/mysqlclient/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file
+__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-
+9knwix2b-record/install-record.txt --single-version-externally-managed --compile
+ failed with error code 1 in /tmp/pip_build_root/mysqlclient                    
+Storing debug log for failure in /home/box/.pip/pip.log 
+Command python setup.py egg_info failed with error code 1 in /tmp/pip_build_root
+/mysqlclient                                                                    
+Storing debug log for failure in /home/box/.pip/pip.log  
