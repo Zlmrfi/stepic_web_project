@@ -24,7 +24,6 @@ SECRET_KEY = 'djpoic1$w+yk+8s2*4^+(v=)c*eby8yku_pyqe3x6&==rx0wby'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = []
 
 

@@ -1,0 +1,5 @@
+<!DOCTYPE HTML>
+{% for p in page.object_list %}
+<a href="{{ p.get_url }}">
+{{ p }}</a><br />
+{% endfor %}
