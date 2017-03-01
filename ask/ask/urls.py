@@ -26,4 +26,5 @@ urlpatterns = [
     url(r'^popular/.*', views.httppopr),
     url(r'^question/(?P<ido>\d*)', views.qust),
     url(r'.*', views.httppage),
+    url(r'^$', views.test),
 ]
