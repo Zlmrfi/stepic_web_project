@@ -48,3 +48,5 @@ class Answer(models.Model):
         return self.title
     def __unicode__(self):
         return self.title
+    def get_url(self):
+        return '/question/{}'.format(self.question_id)
